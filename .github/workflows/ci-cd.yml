@@ -40,3 +40,4 @@ jobs:
           echo test, and deploy your project.
           echo GITHUB_EVENT_NAME $GITHUB_EVENT_NAME
           echo GITHUB_RUN_NUMBER $GITHUB_RUN_NUMBER
+          echo input env ${{ github.event.inputs.environment }}
